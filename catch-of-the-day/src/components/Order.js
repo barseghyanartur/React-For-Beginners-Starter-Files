@@ -6,7 +6,6 @@ class Order extends React.Component {
             <p>Order</p>
         )
     }
-
 }
 
 export default Order;

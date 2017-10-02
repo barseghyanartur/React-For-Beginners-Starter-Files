@@ -9,14 +9,13 @@ class App extends React.Component {
         return (
             <div className="catch-of-the-day">
                 <div className="menu">
-                    <Header tagline="Fresh Seafood Market"/>
+                    <Header age="5000" cool={true} tagline="Fresh Seafood Market"/>
                 </div>
                 <Order/>
                 <Inventory/>
             </div>
         )
     }
-
 }
 
 export default App;

@@ -6,7 +6,6 @@ class NotFound extends React.Component {
             <h1>Not Found!</h1>
         )
     }
-
 }
 
 export default NotFound;
