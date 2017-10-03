@@ -7,6 +7,7 @@ import Fish from './Fish';
 import base from '../base';
 import sampleFishes from '../sample-fishes';
 
+
 class App extends React.Component {
     constructor() {
         super();
@@ -136,5 +137,11 @@ class App extends React.Component {
         )
     }
 }
+
+
+App.propTypes = {
+    params: React.PropTypes.object.isRequired
+};
+
 
 export default App;
