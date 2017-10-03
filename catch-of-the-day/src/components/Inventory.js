@@ -12,7 +12,7 @@ class Inventory extends React.Component {
     }
 
     handleChange(event, key) {
-        const fishes = {...this.props.fishes};
+//        const fishes = {...this.props.fishes};
         const fish = this.props.fishes[key];
         console.log(fish);
         // take a copy of that fish and update it with the new data
@@ -53,6 +53,7 @@ class Inventory extends React.Component {
                        type="text"
                        placeholder="Fish Image"
                        onChange={(e) => this.handleChange(e, key)}/>
+                <button onClick={(e) => this.props.removeFish(key)}>Remove Fish</button>
             </div>
         )
     }
