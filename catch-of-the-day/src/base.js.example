@@ -1,0 +1,10 @@
+import Rebase from 're-base';
+
+const base = Rebase.createClass({
+    apiKey: "",
+    authDomain: "learn-react-75923.firebaseapp.com",
+    databaseURL: "https://learn-react-75923.firebaseio.com"
+});
+
+export default base;
+s
